@@ -18,7 +18,7 @@ get_column() {
   fi
 }
 
-# Fungsi untuk mencetak unsur kimia berikut informasi detailnya
+# Fungsi untuk mencetak informasi unsur kimia beserta detailnya
 print_result() {
   while read -r BAR BAR NUMBER BAR SYMBOL BAR NAME BAR WEIGHT BAR MELTING BAR BOILING BAR TYPE; do
     echo "The element with atomic number $NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $WEIGHT amu. $NAME has a melting point of $MELTING celsius and a boiling point of $BOILING celsius."
