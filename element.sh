@@ -21,7 +21,8 @@ get_column() {
 # Fungsi untuk mencetak informasi unsur kimia beserta detailnya
 print_result() {
   while read -r BAR BAR NUMBER BAR SYMBOL BAR NAME BAR WEIGHT BAR MELTING BAR BOILING BAR TYPE; do
-    echo "The element with atomic number $NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $WEIGHT amu. $NAME has a melting point of $MELTING celsius and a boiling point of $BOILING celsius."
+    echo "The element with atomic number $NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $WEIGHT amu. \
+          $NAME has a melting point of $MELTING celsius and a boiling point of $BOILING celsius."
   done
 }
 
@@ -29,10 +30,8 @@ print_result() {
 get_data() {
   COLUMN="$1"
   SYMBOL="$2"
-  DATA=$($PSQL "SELECT * \
-                FROM elements \
-                INNER JOIN properties USING(atomic_number) \
-                INNER JOIN types USING (type_id) \
+  DATA=$($PSQL "SELECT * FROM elements \
+                INNER JOIN properties USING(atomic_number) INNER JOIN types USING (type_id) \
                 WHERE $COLUMN='$SYMBOL'")
 
   if [[ -z $DATA ]]; then
