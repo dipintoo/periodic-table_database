@@ -9,8 +9,8 @@ ALTER TABLE elements ADD CONSTRAINT symbol UNIQUE(symbol), ADD CONSTRAINT name U
 ALTER TABLE elements ALTER COLUMN symbol SET NOT NULL, ALTER COLUMN name SET NOT NULL;
 ALTER TABLE ONLY properties ADD CONSTRAINT properties_elements_fk FOREIGN KEY (atomic_number) REFERENCES elements(atomic_number);
 CREATE TABLE types (type_id integer PRIMARY KEY NOT NULL, type character varying(30) NOT NULL);
-INSERT INTO types VALUES (1, 'metal');
-INSERT INTO types VALUES (2, 'nonmetal');
+INSERT INTO types VALUES (1, 'nonmetal');
+INSERT INTO types VALUES (2, 'metal');
 INSERT INTO types VALUES (3, 'metalloid');
 ALTER TABLE properties add column type_id int not null default 1;
 ALTER TABLE ONLY properties ADD CONSTRAINT properties_type_id_fkey FOREIGN KEY (type_id) REFERENCES types(type_id);
