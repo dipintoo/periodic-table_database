@@ -18,7 +18,7 @@ get_column() {
 }
 
 print_result() {
-  echo "$1" | while read -r BAR BAR NUMBER BAR SYMBOL BAR NAME BAR WEIGHT BAR MELTING BAR BOILING BAR TYPE; do
+  while read -r BAR BAR NUMBER BAR SYMBOL BAR NAME BAR WEIGHT BAR MELTING BAR BOILING BAR TYPE; do
     echo "The element with atomic number $NUMBER is $NAME ($SYMBOL). It's a $TYPE, with a mass of $WEIGHT amu. $NAME has a melting point of $MELTING celsius and a boiling point of $BOILING celsius."
   done
 }
@@ -35,7 +35,7 @@ get_data() {
   if [[ -z $DATA ]]; then
     echo "I could not find that element in the database."
   else
-    print_result "$DATA"
+    echo "$DATA" | print_result
   fi
 }
 
