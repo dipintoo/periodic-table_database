@@ -29,7 +29,6 @@ ALTER TABLE properties DROP COLUMN type;
 
 -- PART 2: Create your git repository
 
-  -- Membuat tabel bernama periodic_table
   mkdir periodic_table && cd periodic_table && git init && git checkout -b main && touch element.sh && chmod +x element.sh
   
   -- Membuat tabel bernama periodic_table
