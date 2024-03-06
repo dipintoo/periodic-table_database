@@ -6,7 +6,7 @@ Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adala
 
 ## Alur Kerja
 
-### Database
+### [Database](https://github.com/dipintoo/periodic-table_database/blob/main/command.sql)
 
 1. Hubungkan perangkat ke database periodic_table yang sudah tersedia. Kenali tabel, kolom, dan baris yang ada agar mendapatkan gambaran awal.
 2. Ada beberapa kesalahan dalam database yang perlu diperbaiki atau diubah.
@@ -14,7 +14,7 @@ Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adala
    - Menyesuaikan nama kolom, tipe data, dan menerapkan constraint seperti unique, primary key, foreign key.
    - Membuat tabel baru agar database lebih terorganisir, menghapus tabel dan kolom yang tidak dibutuhkan, dan mengupdate data.
   
-### Algoritma Bash Script
+### [Algoritma Bash Script](https://github.com/dipintoo/periodic-table_database/blob/main/element.sh)
   
 1. Memeriksa dulu input yang boleh diterima (nomor atom, simbol, atau nama unsur).
 
