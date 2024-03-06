@@ -2,11 +2,11 @@
 
 ## Goals  
 
-Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adalah memperbaiki kesalahan yang ada dalam database tersebut. Selanjutnya, membuat script bash untuk mendapatkan informasi detail yang sesuai dengan unsur kimia tertentu dari database, berdasarkan input yang kita berikan, baik berupa nomor atom, simbol, dan nama elemennya.
+Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adalah memperbaiki kesalahan yang ada dalam database tersebut. Selanjutnya, membuat script bash untuk mendapatkan informasi detail yang sesuai dengan unsur kimia tertentu dari database, berdasarkan input yang diberikan, baik berupa nomor atom, simbol, dan nama elemennya.
 
 ## Alur Kerja
 
-### Memperbaiki Database
+### Database
 
 1. Hubungkan perangkat ke database periodic_table yang sudah tersedia. Kenali tabel, kolom, dan baris yang ada agar mendapatkan gambaran awal.
 2. Ada beberapa kesalahan dalam database yang perlu diperbaiki atau diubah.
