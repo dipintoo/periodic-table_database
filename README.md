@@ -2,7 +2,7 @@
 
 ## Goals  
 
-Membuat script bash untuk mendapatkan informasi detail yang sesuai dengan unsur kimia tertentu dari database periodik unsur, berdasarkan input yang kita berikan, baik berupa nomor atom, simbol, dan nama elemennya. Database sudah tersedia dan tugas kita adalah memperbaiki kesalahan yang ada dalam database tersebut.
+Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adalah memperbaiki kesalahan yang ada dalam database tersebut. Selanjutnya, membuat script bash untuk mendapatkan informasi detail yang sesuai dengan unsur kimia tertentu dari database, berdasarkan input yang kita berikan, baik berupa nomor atom, simbol, dan nama elemennya.
 
 ## Alur Kerja
 
@@ -20,7 +20,7 @@ Membuat script bash untuk mendapatkan informasi detail yang sesuai dengan unsur 
 
    - Inputnya kosong atau tidak
    - Inputnya berupa angka atau bukan
-   - Inputnya berupa nama atau simbol (bisa menghitung jumlah karakter input).
+   - Inputnya berupa nama atau simbol (menghitung jumlah karakter input).
 
 2. Setelah input sesuai, cek database apakah ada data yang berkaitan dengan input yang diberikan.
 
