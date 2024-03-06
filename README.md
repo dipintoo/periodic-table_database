@@ -26,3 +26,5 @@ Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adala
 
    - Jika tidak ada, tampilkan pesan bahwa informasi tidak tersedia
    - Jika ada, tampilkan informasi detail yang sesuai dengan unsur kimia tersebut.
+  
+[**_Next Project - Game Tebak Angka >>_**](https://github.com/dipintoo/salon_database)
