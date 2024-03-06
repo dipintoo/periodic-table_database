@@ -1,4 +1,4 @@
-![Cover]()
+![Cover](https://github.com/dipintoo/periodic-table_database/blob/main/Cover2.jpg)
 
 ## Goals  
 
