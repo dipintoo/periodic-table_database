@@ -2,7 +2,7 @@
 
 ## Goals  
 
-Membuat script bash untuk mendapatkan informasi detail yang sesuai dengan unsur kimia tertentu dari database periodik unsur berdasarkan input yang kita berikan, baik berupa nomor atom, simbol, dan nama elemennya. Database sudah tersedia dan tugas kita adalah memperbaiki kesalahan yang ada dalam database tersebut.
+Membuat script bash untuk mendapatkan informasi detail yang sesuai dengan unsur kimia tertentu dari database periodik unsur, berdasarkan input yang kita berikan, baik berupa nomor atom, simbol, dan nama elemennya. Database sudah tersedia dan tugas kita adalah memperbaiki kesalahan yang ada dalam database tersebut.
 
 ## Database
 
