@@ -4,15 +4,17 @@
 
 Membuat script bash untuk mendapatkan informasi detail yang sesuai dengan unsur kimia tertentu dari database periodik unsur, berdasarkan input yang kita berikan, baik berupa nomor atom, simbol, dan nama elemennya. Database sudah tersedia dan tugas kita adalah memperbaiki kesalahan yang ada dalam database tersebut.
 
-## Database
+## Alur Kerja
+
+### Memperbaiki Database
 
 1. Hubungkan perangkat ke database periodic_table yang sudah tersedia. Kenali tabel, kolom, dan baris yang ada agar mendapatkan gambaran awal.
 2. Ada beberapa kesalahan dalam database yang perlu diperbaiki atau diubah.
 
-   - Menyesuaikan nama kolom, tipe data, menerapkan constraint seperti unique, primary key, foreign key, not null dll.
+   - Menyesuaikan nama kolom, tipe data, dan menerapkan constraint seperti unique, primary key, foreign key.
    - Membuat tabel baru agar database lebih terorganisir, menghapus tabel dan kolom yang tidak dibutuhkan, dan mengupdate data.
   
-## Algoritma Bash Script
+### Algoritma Bash Script
   
 1. Memeriksa dulu input yang boleh diterima (nomor atom, simbol, atau nama unsur).
 
