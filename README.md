@@ -7,8 +7,8 @@ Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adala
 ## Alur Kerja
 
 ### Database
-1. Hubungkan perangkat ke [database periodic_table](https://github.com/dipintoo/periodic-table_database/blob/main/command.sql) yang sudah tersedia. Kenali tabel, kolom, dan baris yang ada agar mendapatkan gambaran awal.
-2. Ada beberapa kesalahan dalam database yang perlu diperbaiki atau diubah.
+1. Hubungkan perangkat ke database periodic_table yang sudah tersedia. Kenali tabel, kolom, dan baris yang ada agar mendapatkan gambaran awal.
+2. Ada beberapa [kesalahan](https://github.com/dipintoo/periodic-table_database/blob/main/command.sql) dalam database yang perlu diperbaiki atau diubah.
 
    - Menyesuaikan nama kolom, tipe data, dan menerapkan constraint seperti unique, primary key, foreign key.
    - Membuat tabel baru agar database lebih terorganisir, menghapus tabel dan kolom yang tidak dibutuhkan, dan mengupdate data.
