@@ -6,9 +6,8 @@ Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adala
 
 ## Alur Kerja
 
-### [Database](https://github.com/dipintoo/periodic-table_database/blob/main/command.sql)
-
-1. Hubungkan perangkat ke database periodic_table yang sudah tersedia. Kenali tabel, kolom, dan baris yang ada agar mendapatkan gambaran awal.
+### Database
+1. Hubungkan perangkat ke [database periodic_table](https://github.com/dipintoo/periodic-table_database/blob/main/command.sql) yang sudah tersedia. Kenali tabel, kolom, dan baris yang ada agar mendapatkan gambaran awal.
 2. Ada beberapa kesalahan dalam database yang perlu diperbaiki atau diubah.
 
    - Menyesuaikan nama kolom, tipe data, dan menerapkan constraint seperti unique, primary key, foreign key.
@@ -26,5 +25,9 @@ Kita diberikan database yang berisi tabel periodik unsur kimia. Tugas kita adala
 
    - Jika tidak ada, tampilkan pesan bahwa informasi tidak tersedia
    - Jika ada, tampilkan informasi detail yang sesuai dengan unsur kimia tersebut.
+  
+## Sumber
+
+freeCodeCamp. (2024). Relational Database. Diakses dari https://www.freecodecamp.org/learn/relational-database/build-a-periodic-table-database-project/build-a-periodic-table-database
   
 [**_Next Project - Game Tebak Angka >>_**](https://github.com/dipintoo/guessing-game_database)
